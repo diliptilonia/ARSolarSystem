@@ -13,6 +13,11 @@
 		89E5A09E221546B4005AF56E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E5A09C221546B4005AF56E /* Main.storyboard */; };
 		89E5A0A0221546B6005AF56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E5A09F221546B6005AF56E /* Assets.xcassets */; };
 		89E5A0A3221546B6005AF56E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E5A0A1221546B6005AF56E /* LaunchScreen.storyboard */; };
+		89E5A0AF221580D8005AF56E /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E5A0AE221580D8005AF56E /* Planet.swift */; };
+		89E5A0B222159646005AF56E /* stars.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 89E5A0B022159646005AF56E /* stars.scnp */; };
+		89E5A0B322159646005AF56E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E5A0B122159646005AF56E /* star.png */; };
+		89E5A0BA22159817005AF56E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E5A0B822159817005AF56E /* spark.png */; };
+		89E5A0BB22159817005AF56E /* sun.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 89E5A0B922159817005AF56E /* sun.scnp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		89E5A09F221546B6005AF56E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89E5A0A2221546B6005AF56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89E5A0A4221546B6005AF56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E5A0AE221580D8005AF56E /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		89E5A0B022159646005AF56E /* stars.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = stars.scnp; sourceTree = "<group>"; };
+		89E5A0B122159646005AF56E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		89E5A0B822159817005AF56E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		89E5A0B922159817005AF56E /* sun.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = sun.scnp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				89E5A096221546B3005AF56E /* AppDelegate.swift */,
 				89E5A098221546B3005AF56E /* art.scnassets */,
 				89E5A09A221546B4005AF56E /* ViewController.swift */,
+				89E5A0B822159817005AF56E /* spark.png */,
+				89E5A0B922159817005AF56E /* sun.scnp */,
+				89E5A0B022159646005AF56E /* stars.scnp */,
+				89E5A0B122159646005AF56E /* star.png */,
+				89E5A0AE221580D8005AF56E /* Planet.swift */,
 				89E5A09C221546B4005AF56E /* Main.storyboard */,
 				89E5A09F221546B6005AF56E /* Assets.xcassets */,
 				89E5A0A1221546B6005AF56E /* LaunchScreen.storyboard */,
@@ -125,10 +140,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E5A0BB22159817005AF56E /* sun.scnp in Resources */,
 				89E5A099221546B3005AF56E /* art.scnassets in Resources */,
 				89E5A0A3221546B6005AF56E /* LaunchScreen.storyboard in Resources */,
 				89E5A0A0221546B6005AF56E /* Assets.xcassets in Resources */,
+				89E5A0BA22159817005AF56E /* spark.png in Resources */,
 				89E5A09E221546B4005AF56E /* Main.storyboard in Resources */,
+				89E5A0B222159646005AF56E /* stars.scnp in Resources */,
+				89E5A0B322159646005AF56E /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E5A0AF221580D8005AF56E /* Planet.swift in Sources */,
 				89E5A09B221546B4005AF56E /* ViewController.swift in Sources */,
 				89E5A097221546B3005AF56E /* AppDelegate.swift in Sources */,
 			);
